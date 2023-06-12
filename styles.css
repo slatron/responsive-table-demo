@@ -1,0 +1,68 @@
+.table-collapsible .mobile-toggle {
+  display: none;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eeefff;
+}
+
+@media only screen and (max-width: 500px) {
+  .mobile-toggle {
+    padding-left: 5px;
+    padding-top: 5px;
+    position: relative;
+    right: 5px;
+    font-size: 11px;
+    color: blue;
+    cursor: pointer;
+    float: right;
+    width: 23px;
+  }
+  thead {
+    background-color: blue;
+    color: #eeeeee;
+  }
+
+  thead tr.row th {
+    display: none;
+  }
+
+  tbody .row td:not(:first-child) {
+    display: none;
+  }
+
+  td {
+    text-align: left;
+  }
+  td:not(:first-child) {
+    padding-left: 30px;
+  }
+
+  tbody .row.expand td {
+    display: block;
+    border-top: none;
+  }
+
+  tbody .row .icon-more {
+    display: block;
+  }
+  tbody .row .icon-less {
+    display: none;
+  }
+  tbody .row.expand .icon-more {
+    display: none;
+  }
+  tbody .row.expand .icon-less {
+    display: block;
+  }
+  tbody td[data-th]:before {
+    content: attr(data-th);
+    padding: 0 10px;
+    display: inline-block;
+    text-align: right;
+  }
+  tbody td:first-child[data-th]:before {
+    content: '';
+    font-weight: bold;
+  }
+}

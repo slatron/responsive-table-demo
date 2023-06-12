@@ -2,7 +2,7 @@
 
 I want to display a table with many columns in both desktop and mobile browsers. No table data should be hidden and unavailable to mobile users. I want to use CSS and JS to accomplish this and use the same HTML for desktop and mobile users.
 
-## Solution Aproach
+## This Solution
 
 The first cel acts as the "headline" for that row. The initial table will only display that column with a toggle icon to expand that row vertically. When the user expands the row, they will be able to scroll through all row data or collapse the row.
 
