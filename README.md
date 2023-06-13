@@ -9,3 +9,7 @@ The first cel acts as the "headline" for that row. The initial table will only d
 All code is in the single `index.html` file. To see mobile state, resize screen to under 600px. Use toggle icons to view all row data.
 
 This is one simple solution to displaying table data with large column counts on mobile. The entire table is visible at large screen widths. On mobile, only the first row is displayed with a toggle icon. When the user expands the row, they can see all row data vertically with the column name from the data-th attribute used for a label.
+
+## Demo
+
+[Github Pages](https://slatron.github.io/responsive-table-demo/)
